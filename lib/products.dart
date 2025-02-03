@@ -32,4 +32,11 @@ class ProductsScreen extends StatelessWidget {
               context,
               MaterialPageRoute(builder: (context) => ProductsScreen()),
             );
+             },
+        ),
+      ),
+    );
+  }
+}
+
 
