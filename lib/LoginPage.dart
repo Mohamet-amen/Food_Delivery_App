@@ -156,6 +156,7 @@ class LoginPage extends StatelessWidget {
     );
   }
 }
+
 Widget SocialLoginButton(String text, Color color, String iconPath) {
   return Container(
     width: double.infinity,
@@ -164,4 +165,20 @@ Widget SocialLoginButton(String text, Color color, String iconPath) {
       color: color,
       borderRadius: BorderRadius.circular(20),
     ),
-    
+    child: Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Image.asset(iconPath, height: 20),
+        SizedBox(width: 10),
+        Text(
+          text,
+          style: GoogleFonts.poppins(
+            fontSize: 16,
+            fontWeight: FontWeight.bold,
+            color: Colors.black,
+          ),
+        ),
+      ],
+    ),
+  );
+}
