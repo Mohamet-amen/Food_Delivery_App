@@ -33,3 +33,11 @@ class CartScreen extends StatelessWidget {
     return Card(
       margin: EdgeInsets.symmetric(vertical: 8.0),
       child: ListTile(
+        leading: Image.asset(imagePath, width: 50, height: 50),
+        title: Text(name, style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+        subtitle: Text('\$$price/', style: TextStyle(color: Colors.orange)),
+        trailing: Icon(Icons.remove_circle, color: Colors.red),
+      ),
+    );
+  }
+}
