@@ -128,3 +128,18 @@ class SignupPage extends StatelessWidget {
     );
   }
 }
+
+
+Widget SignupTextField(String hint, {bool isPassword = false}) {
+  return TextField(
+    obscureText: isPassword,
+    decoration: InputDecoration(
+      hintText: hint,
+      hintStyle: TextStyle(color: Colors.white70),
+      filled: true,
+      fillColor: Colors.white.withOpacity(0.2),
+      border: OutlineInputBorder(
+       
+    ),
+  );
+}
