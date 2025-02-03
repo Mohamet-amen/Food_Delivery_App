@@ -129,7 +129,6 @@ class SignupPage extends StatelessWidget {
   }
 }
 
-
 Widget SignupTextField(String hint, {bool isPassword = false}) {
   return TextField(
     obscureText: isPassword,
@@ -139,7 +138,9 @@ Widget SignupTextField(String hint, {bool isPassword = false}) {
       filled: true,
       fillColor: Colors.white.withOpacity(0.2),
       border: OutlineInputBorder(
-       
+        borderRadius: BorderRadius.circular(20),
+        borderSide: BorderSide.none,
+      ),
     ),
   );
 }
