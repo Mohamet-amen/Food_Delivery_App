@@ -29,3 +29,7 @@ class CartScreen extends StatelessWidget {
       ),
     );
   }
+   Widget _buildCartItem(String name, String imagePath, int price) {
+    return Card(
+      margin: EdgeInsets.symmetric(vertical: 8.0),
+      child: ListTile(
