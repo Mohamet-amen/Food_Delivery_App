@@ -1,4 +1,17 @@
 # food_app
+projectigaan waxaan ku dhisnay flutter dart waxaana usameenay in maqaayad 
+wax looga dalban karo applican delivery app ah 
+waxaan ku dhisnay illaa iyo seddex qofood 
+
+waxaan nahay group L 
+
+#Name:MOHAMED ABDULLAHI OSMAN "C1211439"
+#Name:SALMA MOHAMED ABDI "C1210692"
+#Name:ABDIHAKIM IBRAHIM ISSE "C1210693"
+
+
+#CLASS:CA213
+
 
 A new Flutter project.
 
